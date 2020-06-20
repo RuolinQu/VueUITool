@@ -6,27 +6,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>gulu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;box-sizing: border-box
+        }
+    </style>
 </head>
 <body>
 <script src="./node_modules/vue/dist/vue.js"></script>
+<script src="./button.js"></script>
+
 
 <!--<div id="app">{{ message }}</div>-->
 
 
 <div id="app">
-    {{ message }}
+    <g-button></g-button>
 </div>
 
 <script>
-    let app= new Vue({
+    let app = new Vue({
         el: '#app',
 
-        data:{
-            message:'hi'
+        data: {
+            message: 'hi'
         }
     })
-
-
 
 </script>
 
