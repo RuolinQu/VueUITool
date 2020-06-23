@@ -22,5 +22,8 @@
   "homepage": "https://github.com/RuolinQu/VueUITool#readme",
   "dependencies": {
     "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
   }
 }
